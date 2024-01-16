@@ -42,7 +42,7 @@ INSTALLED_APPS = [
     'corsheaders',
 ]
 
-CORS_ALLOWED_ORIGINS = ['http://localhost:3000']
+CORS_ALLOWED_ORIGINS = ['https://jadonpage.com']
 
 MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
